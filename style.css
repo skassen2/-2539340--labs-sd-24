@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+
+.top-page{
+    color: white;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    margin-left: 250px;
+    font-size: 1.1em;
+}
+.navigation{
+    margin-right: 100px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+.navigation ul a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.dev{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+}
+.graphic{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+}
+
+
+.foot{
+    background-color:rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 12px;
+}
